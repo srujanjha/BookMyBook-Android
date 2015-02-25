@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Stores">
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="refresh all"/>
+    <item android:id="@+id/action_stores" android:title="feedback"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_dialog_email" app:showAsAction="ifRoom" />
+    <item android:id="@+id/refresh_details" android:title="refresh details"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_dialog_email" app:showAsAction="never" />
+    <item android:id="@+id/refresh_summary" android:title="refresh summary"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_dialog_email" app:showAsAction="never" />
+</menu>
